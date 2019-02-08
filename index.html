@@ -50,9 +50,15 @@
             }
 
             render() {
-
-                console.log('I was rendered.')
-                return <div>
+                let type = '';
+                if(this.state.count % 2 === 0) {
+                    type ='even'; 
+                }else{
+                    type='odd'; 
+                }
+                return <div> 
+                    <h2>{this.state.count % 2 === 0 ? 'even':'odd'}</h2>
+                    <h2>{type}</h2>
                     <button onClick={this.handleSubtract}>-</button>
                         <span style ={{padding: '10px'}}>
                         {this.state.count}
