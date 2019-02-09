@@ -1,0 +1,25 @@
+{
+  "name": "probable-invention",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack":"webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaleesam/probable-invention.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaleesam/probable-invention/issues"
+  },
+  "homepage": "https://github.com/jaleesam/probable-invention#readme",
+  "devDependencies": {
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
+  }
+}
